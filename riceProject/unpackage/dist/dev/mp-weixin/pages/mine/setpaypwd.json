@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "digital-keyboard": "/components/digital-keyboard/digital-keyboard",
+    "q-s-popup": "/components/QS-popup/QS-popup"
+  }
+}
