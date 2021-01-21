@@ -1,0 +1,181 @@
+page {
+  background-color: #f4f4f4;
+}
+.ordertab {
+  height: 90rpx;
+  padding: 0 130rpx;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+}
+.ordertab .tab-item {
+  height: 90rpx;
+  line-height: 105rpx;
+  min-width: 130rpx;
+  text-align: center;
+  color: #686868;
+}
+.ordertab .tab-item text {
+  font-size: 30rpx;
+}
+.ordertab .active {
+  color: #EB798D;
+  position: relative;
+}
+.ordertab .active text {
+  border-color: #EB798D;
+  font-size: 30rpx;
+}
+.ordertab .active::after {
+  content: '';
+  width: 110rpx;
+  height: 6rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#FF99D9), to(#FFAF99));
+  background: -webkit-linear-gradient(left, #FF99D9 0%, #FFAF99 100%);
+  background: linear-gradient(90deg, #FF99D9 0%, #FFAF99 100%);
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  position: absolute;
+  bottom: 0rpx;
+  left: 10rpx;
+}
+.order-wrap {
+  padding: 0 10rpx;
+}
+.order-item {
+  padding: 0 20rpx;
+  background-color: #fff;
+  margin-bottom: 28rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+.order-item .top-box {
+  padding: 30rpx 0;
+  border-bottom: 1px solid #F3F3F3;
+}
+.order-item .top-box .copy {
+  font-size: 24rpx;
+  color: #EC7A8E;
+  padding: 10rpx 20rpx;
+  border: 2rpx solid #EC7A8E;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  margin-left: 34rpx;
+}
+.order-item .mid-box {
+  padding: 24rpx 0 30rpx;
+  border-bottom: 1px solid #F3F3F3;
+}
+.order-item .mid-box .imgs {
+  width: 168rpx;
+  height: 168rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.order-item .mid-box .mid-right {
+  width: 100%;
+  padding: 4rpx 0 2rpx 20rpx;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.order-item .mid-box .mid-right .mid-title {
+  padding-right: 80rpx;
+}
+.order-item .mid-box .mid-right .goods-num {
+  position: absolute;
+  right: 0;
+  top: 4rpx;
+}
+.order-item .price-box {
+  padding-top: 24rpx;
+  text-align: right;
+}
+.order-item .price-box-more {
+  padding-top: 24rpx;
+}
+.order-item .price-box-more .price-box-item {
+  padding-bottom: 24rpx;
+}
+.order-item .btn-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-top: 24rpx;
+}
+.order-item .btn-box .btn {
+  margin-left: 20rpx;
+  min-width: 180rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  height: 56rpx;
+  -webkit-border-radius: 60rpx;
+          border-radius: 60rpx;
+  margin-bottom: 32rpx;
+}
+.order-item .btn-box .btn-border {
+  color: #EB798D;
+  border: 1px solid #EB798D;
+}
+.order-item .btn-box .btn-red {
+  background-color: #EB798D;
+  color: #fff;
+}
+.order-item .btn-box .btn-gray {
+  background-color: #DBDBDB;
+  color: #fff;
+}
+.no-order {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #AEAEAE;
+  font-size: 26rpx;
+}
+.no-order .lg-no-order {
+  width: 206rpx;
+  height: 137rpx;
+  margin-bottom: 66rpx;
+}
+.back-top {
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  right: 30rpx;
+  bottom: 150rpx;
+  z-index: 110;
+  background: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+

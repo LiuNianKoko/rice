@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/upload",
+    "pages/index/confirm",
+    "pages/index/success"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "照片墙",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

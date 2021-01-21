@@ -1,0 +1,128 @@
+.scale-1px-bot {
+  position: relative;
+  border: none;
+}
+.scale-1px-bot::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #dbdbdb;
+  height: 1px;
+  width: 100%;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.cuIcon-back {
+  color: #999999;
+  font-size: 36rpx;
+}
+.cu-custom {
+  display: block;
+  position: relative;
+}
+.cu-custom .cu-bar .content {
+  /* width: calc(100% - 440upx); */
+  width: 60%;
+  text-align: center;
+  font-size: 32rpx;
+}
+.cu-bar.fixed,
+.nav.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1024;
+  -webkit-box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+.action {
+  width: 40rpx;
+  height: 32rpx;
+}
+.action .back {
+  width: 18rpx;
+  height: 32rpx;
+}
+.cu-custom .cu-bar .content image {
+  height: 60rpx;
+  width: 240rpx;
+}
+.cu-custom .cu-bar {
+  min-height: 0px;
+  padding-right: 220rpx;
+  -webkit-box-shadow: 0rpx 0rpx 0rpx;
+          box-shadow: 0rpx 0rpx 0rpx;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 20rpx;
+  /* box-shadow:0px -5px 10px -2px rgba(0,0,0,0.5); */
+}
+.cu-custom .cu-bar .border-custom {
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 1000rpx;
+          border-radius: 1000rpx;
+  height: 30px;
+}
+.cu-custom .cu-bar .border-custom::after {
+  content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: inherit;
+          border-radius: inherit;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1rpx solid #ffffff;
+  opacity: 0.5;
+}
+.cu-custom .cu-bar .border-custom::before {
+  content: " ";
+  width: 1rpx;
+  height: 110%;
+  position: absolute;
+  top: 22.5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  opacity: 0.6;
+  background-color: #ffffff;
+}
+.cu-custom .cu-bar .border-custom text {
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin: auto !important;
+  text-align: center;
+  font-size: 34rpx;
+}
+.over {
+  overflow: visible;
+}
+

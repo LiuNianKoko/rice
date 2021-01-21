@@ -1,0 +1,20 @@
+
+.content{width:100%;overflow-x: hidden;}
+.content .logo{width:25%;height: 187.5rpx;margin-left:37.5%;margin-top:32rpx;}
+.content .inputBox{width:100%;position: relative;}
+.content .inputBox .eye{width:40rpx;height: 25rpx;position: absolute;top:40%;right:10%;z-index: 2;}
+.content .inputBox .input{width:85%;margin-left:5%;padding:2.5%;border-bottom: 1px solid rgb(240,240,240);padding-left: 10%;}
+.content .inputBox .icons{width:32rpx;height: 40rpx;position: absolute;top:25%;left:7%}
+.content .inputBox .icon{position: absolute;top:30%;right:5%;}
+.content .getCode{position: absolute;top:20%;right:8%;color:rgb(78,178,244);text-align: center;}
+.content .marginTop50{margin-top:50rpx;}
+.content .marginTop20{margin-top:20rpx}
+.content .uni-input-placeholder{font-size: 14px;color:#A5A5A5;}
+.content .loginBtn{width:90%;margin-left: 5%;background: rgb(78,178,244);color:white;border-radius: 200rpx;text-align: center;padding:2.5% 0;margin-top:100rpx;}
+.content .anoWays{width:90%;margin:30rpx 0 50rpx 5%;}
+.content .anoWays .noneIcon{float: left;width:32rpx;height:32rpx;border-radius: 33rpx;border:1px solid rgba(0,0,0,0.1);margin-right: 20rpx;}
+.content .anoWays .haveIcon{float: left;width:33rpx;height:33rpx;position: relative;top:0rpx;border-radius: 33rpx;border:1px solid white;margin-right: 20rpx;}
+.content .anoWays .article{float: left;margin-right:10rpx;}
+.content .anoWays .special{float: left;color:rgb(78,178,244);}
+.content .haveUserName{width:95%;text-align: right;color:#515151;margin-right: 5%;}
+

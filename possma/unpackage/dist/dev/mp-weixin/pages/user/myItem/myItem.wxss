@@ -1,0 +1,19 @@
+
+.content .rowsData{width:100%;background: rgb(244,244,244);margin-top: 20rpx;}
+.content .rowsData .boxData{width:90%;padding:4% 2.5%;margin:0rpx 2.5%;margin-top: 10rpx;background: white;border-radius: 10rpx;}
+.content .rowsData .boxData .headImage{width:15%;height:100rpx;border-radius: 120rpx;float: left;margin-right: 5%;}
+.content .rowsData .boxData .right{width:80%;float: left;}
+.content .rowsData .boxData .right .name{font-size: 12px;color:#8E8E8E;width:100%;float: left;}
+.content .rowsData .boxData .right .nameNew{font-size: 12px;color:#8E8E8E;max-width:80%;float: left;}
+.content .rowsData .boxData .right .news{font-size: 12px;float: left;width:22%;margin-left:2%;color:#4FB0F4;border:1px solid #4FB0F4;text-align: center;}
+.content .rowsData .boxData .right .names{width:100%;font-size:12px;color:#1A1A1A;margin-top:5rpx}
+.content .rowsData .boxData .right .nums{color:#1A1A1A;font-size: 12px;}
+.color_black{color:black !important}
+.content{width:100%;background: rgb(244,244,244);padding-bottom: 20rpx;}
+.content .none{width:100%;height:30rpx;background: rgb(244,244,244)}
+.content .topBox{width:90%;padding:2.5%;margin:0rpx 2.5%;background: white;border-radius: 10rpx;}
+.content .topBox .box{width:33.3%;float: left;text-align: center;}
+.content .topBox .box .icon{width:65rpx;height:60rpx;margin:20rpx 0;}
+.content .topBox .box .name{font-size:12px;color:#1A1A1A;margin-bottom: 10rpx;}
+.content .topBox .box .names{font-size: 15px;color:#3DB8FF}
+

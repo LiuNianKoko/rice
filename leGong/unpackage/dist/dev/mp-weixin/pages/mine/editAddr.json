@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "eh-picker": "/components/erha-picker/erha-picker"
+  }
+}

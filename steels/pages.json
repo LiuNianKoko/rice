@@ -1,0 +1,317 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/guide",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/shop",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/forum",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/infoList",
+			"style": {
+				"navigationBarTitleText":"资讯列表"
+			}
+		},
+		{
+			"path": "pages/home/infoDetail",
+			"style": {
+				"navigationBarTitleText":"资讯详情"
+			}
+		},
+		{
+			"path": "pages/home/web",
+			"style": {
+				"navigationBarTitleText":""
+			}
+		},
+		{
+			"path": "pages/home/msg",
+			"style": {
+				"navigationBarTitleText":"消息"
+			}
+		},
+		{
+			"path": "pages/home/msgList",
+			"style": {
+				"navigationBarTitleText":"消息"
+			}
+		},
+		{
+			"path": "pages/home/msgDetail",
+			"style": {
+				"navigationBarTitleText":"消息详情"
+			}
+		},
+		
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText":"用户协议"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText":"注册"
+			}
+		},
+		{
+			"path": "pages/login/setPassword",
+			"style": {
+				"navigationBarTitleText":"设置登录密码"
+			}
+		},
+		{
+			"path": "pages/login/forgetPassword",
+			"style": {
+				"navigationBarTitleText":"忘记密码"
+			}
+		},
+		{
+			"path": "pages/home/search",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/set",
+			"style": {
+				"navigationBarTitleText":"设置"
+			}
+		},
+		{
+			"path": "pages/mine/aboutUs",
+			"style": {
+				"navigationBarTitleText":"关于我们"
+			}
+		},
+		{
+			"path": "pages/mine/feedBack",
+			"style": {
+				"navigationBarTitleText":"意见反馈"
+			}
+		},
+		{
+			"path": "pages/mine/revisePhone",
+			"style": {
+				"navigationBarTitleText":"更换绑定手机号"
+			}
+		},
+		{
+			"path": "pages/mine/useHelp",
+			"style": {
+				"navigationBarTitleText":"使用帮助"
+			}
+		},
+		{
+			"path": "pages/mine/useDetail",
+			"style": {
+				"navigationBarTitleText":""
+			}
+		},
+		{
+			"path": "pages/mine/address",
+			"style": {
+				"navigationBarTitleText":"地址"
+			}
+		},
+		{
+			"path": "pages/mine/collect",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/info",
+			"style": {
+				"navigationBarTitleText":"我的资料",
+				"app-plus": {
+					"titleNView": {
+						"splitLine":{
+							"color":"#F2F2F5"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/location",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/editInfo",
+			"style": {
+				"navigationBarTitleText":"我的资料",
+				"app-plus": {
+					"titleNView": {
+						"splitLine":{
+							"color":"#F2F2F5"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/release",
+			"style": {
+				"navigationBarTitleText":"添加商品"
+			}
+		},
+		{
+			"path": "pages/mine/myRelease",
+			"style": {
+				"navigationBarTitleText":"我的发布"
+			}
+		},
+		{
+			"path": "pages/mine/fans",
+			"style": {
+				"navigationBarTitleText":"我的关注"
+			}
+		},
+		{
+			"path": "pages/mine/idCard",
+			"style": {
+				"navigationBarTitleText":"身份认证"
+			}
+		},
+		{
+			"path": "pages/forum/forumSort",
+			"style": {
+				"navigationBarTitleText":"分类"
+			}
+		},
+		{
+			"path": "pages/forum/forumDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/forum/releaseNews",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"color":"#BCBCBC",
+		"selectedColor":"#181C62",
+		"borderStyle":"white",
+		"midButton":{
+			"text":"发布买卖",
+			"iconPath":"/static/tabbar-add.png",
+			"iconWidth":"40px",
+			"height":"60px"
+		},
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/index2.png",
+				"selectedIconPath":"static/index1.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/index/shop",
+				"iconPath":"static/shop2.png",
+				"selectedIconPath":"static/shop1.png",
+				"text":"废钢货架"
+			},
+			{
+				"pagePath":"pages/index/forum",
+				"iconPath":"static/forum2.png",
+				"selectedIconPath":"static/forum1.png",
+				"text":"废钢论坛"
+			},
+			{
+				"pagePath":"pages/index/mine",
+				"iconPath":"static/mine2.png",
+				"selectedIconPath":"static/mine1.png",
+				"text":"我的货仓"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "钢材",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+}

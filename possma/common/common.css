@@ -1,0 +1,11 @@
+body,html,*{margin:0;padding:0;font-size: 16px;}
+.content{width:95%;padding: 2.5%;overflow-x: hidden;}
+.overflow_one{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.overflow_two{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;overflow: hidden;}
+.overflow_three{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;overflow: hidden;}
+.overflow_four{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:4;overflow: hidden;}
+.fontSize12{font-size: 12px;}
+.fontSize13{font-size: 13px;}
+.fontSize14{font-size: 14px;}
+.fontSize15{font-size: 15px;}
+.textCenter{text-align: center;}

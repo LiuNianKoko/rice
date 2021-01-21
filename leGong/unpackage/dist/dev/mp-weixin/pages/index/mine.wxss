@@ -1,0 +1,248 @@
+page {
+  background-color: #f4f4f4;
+}
+.title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 199;
+  color: #000;
+  padding-left: 24rpx;
+  padding-right: 220rpx;
+}
+.title .back-wrap {
+  width: 40rpx;
+  height: 40rpx;
+}
+.title .back-wrap .back {
+  width: 18rpx;
+  height: 32rpx;
+}
+.title .title-txt {
+  font-size: 36rpx;
+  width: 60%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.mine-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 410rpx;
+}
+.head-wrap {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 55rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+  z-index: 50;
+}
+.head-wrap .head-left .headimg-wrap {
+  margin-right: 24rpx;
+}
+.head-wrap .head-left .headimg {
+  width: 145rpx;
+  height: 145rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.head-wrap .head-left .name-wrap {
+  margin-top: 20rpx;
+  margin-bottom: 15rpx;
+  max-width: 300rpx;
+}
+.head-wrap .head-left .member-grade {
+  margin-top: 6rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.head-wrap .head-left .member-grade .member-grade-txt {
+  background-color: #fff;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
+  padding: 6rpx 10rpx;
+}
+.head-wrap .head-left .member1 {
+  color: #e38093;
+}
+.head-wrap .head-left .member2 {
+  color: #ff4341;
+}
+.head-wrap .head-left .member3 {
+  color: #ff9608;
+}
+.head-wrap .right-img-wrap {
+  margin-top: 20rpx;
+}
+.head-wrap .share-button {
+  width: 50rpx;
+  height: 56rpx;
+  border: none;
+  padding: 0;
+  margin-left: 26rpx;
+  background: transparent;
+  margin-top: -4rpx;
+}
+.head-wrap .share-button::after {
+  border: none;
+}
+.head-wrap .right-img {
+  width: 50rpx;
+  height: 56rpx;
+}
+.my-order-wrap {
+  padding: 0 28rpx;
+  position: relative;
+  z-index: 60;
+}
+.my-order-wrap .my-order {
+  background-color: #fff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  padding: 40rpx 20rpx 50rpx;
+  margin-bottom: 30rpx;
+}
+.my-order-wrap .my-order .all-order {
+  color: #bbb;
+  font-size: 26rpx;
+}
+.my-order-wrap .my-order .all-order .all-right {
+  width: 10rpx;
+  height: 17rpx;
+  margin-left: 12rpx;
+}
+.my-order-wrap .order-img-wrap {
+  padding: 50rpx 10rpx 0;
+}
+.my-order-wrap .order-img-wrap .order-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.my-order-wrap .order-img-wrap .order-item .order-img {
+  width: 42rpx;
+  height: 39rpx;
+}
+.my-order-wrap .ach-wrap {
+  margin-bottom: 30rpx;
+}
+.my-order-wrap .ach-wrap .ach-item {
+  width: 32.5%;
+  padding: 20rpx 10rpx;
+  background-color: #fff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+.my-order-wrap .ach-wrap .ach-item .my-ach-wrap {
+  width: 38%;
+  height: 100rpx;
+}
+.my-order-wrap .ach-wrap .ach-item .my-ach-wrap .my-ach {
+  width: 95rpx;
+  height: 100rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.my-order-wrap .ach-wrap .ach-item .my-ach-wrap .my-ach2 {
+  width: 110rpx;
+  height: 100rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.my-order-wrap .ach-wrap .ach-item .my-ach-wrap .my-ach3 {
+  width: 55rpx;
+  height: 60rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.my-order-wrap .ach-wrap .ach-item .ach-line {
+  height: 66rpx;
+  width: 2rpx;
+  background-color: #e5e5e5;
+}
+.my-order-wrap .ach-wrap .ach-item .ach-txt-wrap {
+  width: 60%;
+  padding-left: 10rpx;
+}
+.my-order-wrap .ach-wrap .ach-item .ach-txt {
+  color: #626262;
+  font-size: 22rpx;
+}
+.my-order-wrap .ach-wrap .ach-item .ach-price {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #ec7a8e;
+}
+.my-order-wrap .mine-item-wap {
+  padding: 0 30rpx;
+  background-color: #fff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  margin-bottom: 30rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item {
+  padding: 32rpx 0;
+}
+.my-order-wrap .mine-item-wap .mine-item .mien-item-img {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 18rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item .lg-msg {
+  width: 34rpx;
+  height: 34rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item .lg-local {
+  width: 29rpx;
+  height: 37rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item .lg-my-group {
+  width: 32rpx;
+  height: 37rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item .lg-my-coupon {
+  width: 36rpx;
+  height: 30rpx;
+}
+.my-order-wrap .mine-item-wap .mine-item .right-gray {
+  width: 16rpx;
+  height: 28rpx;
+}
+.user-content {
+  width: 400rpx;
+  height: 200rpx;
+  background-color: #fff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  font-size: 30rpx;
+}
+

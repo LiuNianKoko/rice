@@ -1,0 +1,31 @@
+
+.statusBox{width:100%;height:90rpx;background: white;position: fixed;top:0;left: 0;z-index: 2;}
+.content{width:100%;background: rgb(244,244,244);height:100%;}
+.content .uni-input-placeholder{font-size: 15px;color:#A5A5A5;}
+.content .topBox{width:950%;padding-bottom:80rpx;background: rgb(78,155,244);padding-top:20rpx;padding-left: 5%;}
+.content .topBox .icon{}
+.content .topBox .title{color:white;font-size: 26px;margin-top: 40rpx;margin-bottom: 20rpx;}
+.content .topBox .littleTtile{color:white;}
+.content .bg_white{width:90%;padding:2.5%;margin-left: 2.5%;background: white;border-radius: 10rpx;position: relative;top:-50rpx}
+.content .inputBox{width:95%;position: relative;padding:2.5%;margin-top: 20rpx;}
+.content .inputBox .input{width:100%;border-bottom: 1px solid rgb(240,240,240);padding-bottom: 10rpx;}
+.content .getCode{position: absolute;top:-10%;right:5%;color:rgb(78,178,244);border: 1px solid rgb(78,178,244);text-align: center;border-radius: 10rpx;padding:10rpx;}
+.content .marignTop40{margin-top: 40rpx;}
+.content .rows{width: 90%;padding:4% 5%;}
+.content .rows .left{color:#959595;float: left;padding:10rpx}
+.content .rows .iconBox{float: left;margin-left: 40rpx;border:1px solid rgb(78,155,244);color:rgb(78,155,244);padding:10rpx;border-radius: 10rpx;background: rgb(244,250,255);}
+.content .rows .iconBox .icon{margin-left: 20rpx;}
+.content .rows .num{color:#313131;padding:10rpx;float: left;margin-left: 20rpx;float: left;width:35%}
+.content .rows .num .cardInput{float: right;font-size: 14px;}
+.content .rows .num .uni-input-placeholder{font-size: 14px;}
+.content .sure{width:80%;margin-left:5%;padding:3% 5%;margin-top:40rpx;background: rgb(79,154,244);text-align: center;color:white;text-align: center;border-radius: 100rpx;}
+.content .shadown .close{width:100%;height:100%;background: rgba(0,0,0,0.4);position: fixed;top:0;left:0;}
+.content .shadown .bg_whites{width:60%;text-align: center;padding:5%;background: white;border-radius: 10rpx;position: fixed;top:25%;left:15%;}
+.content .shadown .bg_whites .shadown_title{font-size: 17px;font-weight: bold;}
+.content .shadown .bg_whites .shadown_article{font-size: 14px;margin:40rpx 0;color:rgb(161,161,161)}
+.content .shadown .bg_whites .shadown_sure{width:80%;font-size: 15px;margin:40rpx 0 0 10%;background: rgb(79,154,244);color:white;border-radius: 100rpx;padding:10rpx 0;}
+.content .shadown{width:100%;height:100%;position: fixed;top:0;left:0;}
+
+
+
+

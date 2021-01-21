@@ -1,0 +1,9 @@
+
+.content .commentBox{width:95%;padding:0 2.5%;background: white;position: relative;}
+.content .commentBox .commentData{width:90%;margin-left:5%;margin-top:40rpx;margin-bottom: 20rpx;border-bottom: 2rpx solid #E9E9E9;padding-bottom: 60rpx}
+.content .commentBox .commentData .headImage{width:60rpx;height:60rpx;border-radius:60rpx;margin-right: 20rpx;float: left;}
+.content .commentBox .commentData .name{color:#8E8E8E;position: relative;top:10rpx;width:80%;}
+.content .commentBox .commentData .contents{color:#222222;margin-top:10rpx;width:100%;}
+.content .commentBox .commentData .showImage{width:30%;height:196rpx;border-radius: 10rpx;margin-top:20rpx;margin-right:3.3%;float: left;}
+.content .commentBox .commentData .time{float: right;margin-top: 20rpx;color:#8E8E8E;}
+

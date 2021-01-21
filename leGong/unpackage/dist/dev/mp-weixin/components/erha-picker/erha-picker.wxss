@@ -1,0 +1,58 @@
+._ul,
+._li {
+  list-style: none;
+}
+.level-container {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+}
+.level-container .select {
+  color: red;
+  position: relative;
+}
+.level-container .select::after {
+  content: '';
+  width: 40rpx;
+  height: 6rpx;
+  background: red;
+  position: absolute;
+  left: 50%;
+  bottom: -8rpx;
+  margin-left: -20rpx;
+}
+.level-container ._li {
+  font-size: 26rpx;
+}
+.level-container .content,
+.level-container .name-list {
+  padding: 0 20rpx;
+}
+.level-container .title {
+  font-size: 32rpx;
+  margin: 30rpx 20rpx;
+}
+.level-container .name-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.level-container .name-list ._li {
+  margin-right: 40rpx;
+  padding-bottom: 6rpx;
+}
+.level-container .content {
+  margin-top: 20rpx;
+  height: 600rpx;
+  overflow-y: auto;
+}
+.level-container .content ._li {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 20rpx 0;
+}
+.level-container .content ._li:last-child {
+  border-bototm: none !important;
+}
+

@@ -1,0 +1,1 @@
+<view class="wrap data-v-0caffd1d"><image class="bg data-v-0caffd1d" src="/static/success-bg.png"></image><view class="text-wrap text-center data-v-0caffd1d"><view class="data-v-0caffd1d"><rich-text nodes="{{rule}}"></rich-text></view></view></view>

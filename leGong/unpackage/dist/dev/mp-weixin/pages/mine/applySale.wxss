@@ -1,0 +1,116 @@
+page {
+  background-color: #f4f4f4;
+}
+.wrap {
+  padding: 26rpx;
+}
+.goods-wrap {
+  padding: 30rpx 24rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.goods-wrap .mid-box .goods-img {
+  width: 188rpx;
+  height: 188rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.goods-wrap .mid-box .mid-right {
+  color: #161616;
+  width: 100%;
+  padding: 2rpx 0 2rpx 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.goods-wrap .mid-box .mid-right .goods-intr {
+  color: #9E9E9E;
+}
+.goods-wrap .mid-box .mid-right .goods-intr .goods-intr-txt {
+  padding-right: 40rpx;
+}
+.reason-wrap {
+  padding: 0 38rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  background-color: #fff;
+}
+.reason-wrap .reason-item {
+  color: #4C4C4C;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #eee;
+}
+.reason-wrap .reason-item .reason-left {
+  width: 190rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.reason-wrap .reason-item .reason-right {
+  color: #A5A5A5;
+  width: 90%;
+  padding-right: 20rpx;
+}
+.reason-wrap .reason-item .right-gray {
+  width: 14rpx;
+  height: 24rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+}
+.reason-wrap .reason-item:last-child {
+  border: none;
+}
+.blank {
+  height: 170rpx;
+}
+.btn-wrap {
+  padding: 30rpx 30rpx 50rpx;
+  background-color: #f4f4f4;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.btn-wrap .btn {
+  height: 90rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #EB798D;
+  border: 1px solid #EB798D;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  text-align: center;
+  line-height: 90rpx;
+}
+.type-wrap {
+  width: 750rpx;
+  max-height: 800rpx;
+  overflow-y: auto;
+  padding: 35rpx 30rpx 50rpx;
+  background-color: #fff;
+  -webkit-border-radius: 20rpx 20rpx 0 0;
+          border-radius: 20rpx 20rpx 0 0;
+}
+.type-wrap .type-item {
+  padding: 23rpx 0;
+  color: #4C4C4C;
+}
+.type-wrap .type-item .sel {
+  width: 30rpx;
+  height: 30rpx;
+}
+

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/mine",
+    "pages/mine/myOrder",
+    "pages/mine/myAuthor",
+    "pages/mine/myPhone",
+    "pages/mine/flowRecord",
+    "pages/index/search",
+    "pages/index/detail",
+    "pages/index/confirmOrder",
+    "pages/index/payStatus",
+    "pages/index/addPhone",
+    "pages/mine/message",
+    "pages/mine/address",
+    "pages/mine/editAddr",
+    "pages/mine/orderDetail",
+    "pages/mine/sale",
+    "pages/mine/applySale",
+    "pages/mine/saleDetail",
+    "pages/mine/saleMoney",
+    "pages/mine/achievement",
+    "pages/mine/myGroup",
+    "pages/mine/coupon"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "优选",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#D1D1CF",
+    "selectedColor": "#EC7A8E",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index1.png",
+        "selectedIconPath": "static/index2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/mine",
+        "iconPath": "static/mine1.png",
+        "selectedIconPath": "static/mine2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位"
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap3.json"
+}

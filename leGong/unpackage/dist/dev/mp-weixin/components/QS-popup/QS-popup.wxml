@@ -1,0 +1,1 @@
+<view class="data-v-aae4d9b8"><block wx:if="{{hid}}"><view data-event-opts="{{[['touchmove',[['voidFc',['$event']]]],['tap',[['maskHide',['$event']]]]]}}" class="{{['fadeIn_mask data-v-aae4d9b8',showBl?'show':'hide']}}" catchtouchmove="__e" catchtap="__e"></view></block><view class="{{['data-v-aae4d9b8','QS_'+type,showBl?'show':'hide']}}"><slot></slot></view></view>

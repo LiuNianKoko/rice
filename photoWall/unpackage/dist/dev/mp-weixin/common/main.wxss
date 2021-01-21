@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+uni-page-body,page,page{  
+	height: 100%;
+}
+.uni-page-head{
+	border-bottom: 1px solid #f4f4f4;
+}
+view,text{
+	font-size: 28rpx;
+}
+.disCenter{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.font24{
+	font-size: 24rpx;
+}
+.text-white{
+	color: #fff;
+}
+.text-center{
+	text-align: center;
+}
+.bgWhite{
+	background-color: #fff;
+}
+.scale-1px-bottom{
+	position: relative;
+	border: none;
+}
+.scale-1px-bottom::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #f4f4f4;
+	height: 1px;
+	width: 100%;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+/* padding */
+.padding5{
+	padding: 5rpx;
+}
+.padding10{
+	padding: 10rpx;
+}
+.padding15{
+	padding: 15rpx;
+}
+.padding20{
+	padding: 20rpx;
+}
+/* paddingTop */
+.paddingTop5{
+	padding-top: 5rpx;
+}
+.paddingTop10{
+	padding-top: 10rpx;
+}
+.paddingTop15{
+	padding-top: 15rpx;
+}
+.paddingTop20{
+	padding-top: 20rpx;
+}
+/* paddingLeft */
+.paddingLeft5{
+	padding-left: 5rpx;
+}
+.paddingLeft10{
+	padding-left: 10rpx;
+}
+.paddingLeft15{
+	padding-left: 15rpx;
+}
+.paddingLeft20{
+	padding-left: 20rpx;
+}
+/* paddingRight */
+.paddingRight5{
+	padding-right: 5rpx;
+}
+.paddingRight10{
+	padding-right: 10rpx;
+}
+.paddingRight15{
+	padding-right: 15rpx;
+}
+.paddingRight20{
+	padding-right: 20rpx;
+}
+/* paddingBottom */
+.paddingBottom5{
+	padding-bottom: 5rpx;
+}
+.paddingBottom10{
+	padding-bottom: 10rpx;
+}
+.paddingBottom15{
+	padding-bottom: 15rpx;
+}
+.paddingBottom20{
+	padding-bottom: 20rpx;
+}
+/* margin */
+.marginTop5{
+	margin-top: 5rpx;
+}
+.marginTop10{
+	margin-top: 10rpx;
+}
+.marginTop15{
+	margin-top: 15rpx;
+}
+.marginTop20{
+	margin-top: 20rpx;
+}
+.marginBottom5{
+	margin-bottom: 5rpx;
+}
+.marginBottom10{
+	margin-bottom: 10rpx;
+}
+.marginBottom15{
+	margin-bottom: 15rpx;
+}
+.marginBottom20{
+	margin-bottom: 20rpx;
+}
+.margingLeft5{
+	margin-left: 5rpx;
+}
+.margingLeft10{
+	margin-left: 10rpx;
+}
+.margingLeft15{
+	margin-left: 15rpx;
+}
+.margingLeft20{
+	margin-left: 20rpx;
+}
+.margingRight5{
+	margin-right: 5rpx;
+}
+.margingRight10{
+	margin-right: 10rpx;
+}
+.margingRight15{
+	margin-right: 15rpx;
+}
+.margingRight20{
+	margin-right: 20rpx;
+}
+

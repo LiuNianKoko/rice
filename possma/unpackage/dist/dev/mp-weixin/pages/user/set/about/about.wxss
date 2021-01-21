@@ -1,0 +1,10 @@
+
+.content{width:100%;height:100%;}
+.logoBox{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;margin:100rpx 0;}
+.logo{width:175rpx;}
+.rows{width:95%;padding:5% 2.5%;border-bottom: 1px solid rgb(233,233,233);}
+.rows .headImage{width: 92rpx;height: 92rpx;line-height: 92rpx;border-radius: 92rpx;float: left;}
+.rows .names{color:#222222;float: left}
+.rows .rightName{color:#939393;float: right;width:50%;text-align: right;margin-right:10rpx;}
+.rows .icons{color:#939393;float: right;position: relative;top:8rpx}
+

@@ -1,0 +1,105 @@
+page {
+  background-color: #f4f4f4;
+  height: 100%;
+}
+.content {
+  height: 100%;
+}
+.title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, right top, from(#FF99D9), to(#FFAF99));
+  background: -webkit-linear-gradient(left, #FF99D9 0%, #FFAF99 100%);
+  background: linear-gradient(90deg, #FF99D9 0%, #FFAF99 100%);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 199;
+  color: #000;
+  padding-left: 24rpx;
+  padding-right: 220rpx;
+}
+.title .back-wrap {
+  width: 40rpx;
+  height: 40rpx;
+}
+.title .back-wrap .back {
+  width: 18rpx;
+  height: 32rpx;
+}
+.title .title-txt {
+  font-size: 32rpx;
+  width: 60%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.order-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 515rpx;
+}
+.head-wrap {
+  padding-left: 100rpx;
+  padding-right: 100rpx;
+  padding-bottom: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+  z-index: 50;
+}
+.head-wrap .tk-price {
+  font-size: 58rpx;
+}
+.tk-wrap {
+  padding: 0 30rpx;
+  position: relative;
+  z-index: 50;
+  height: calc(100% - 197px);
+}
+.tk-wrap .tk-box {
+  padding: 40rpx 30rpx 0;
+  -webkit-border-radius: 20rpx 20rpx 0 0;
+          border-radius: 20rpx 20rpx 0 0;
+  background-color: #fff;
+  height: 100%;
+}
+.tk-wrap .tk-box .tk-item {
+  padding: 18rpx 0;
+}
+.tk-wrap .tk-box .tk-item .tk-left {
+  color: #434343;
+  width: 220rpx;
+}
+.tk-wrap .tk-box .tk-item .tk-right {
+  color: #A0A0A0;
+}
+.tk-wrap .tk-box .tk-intr {
+  color: #BEBEBE;
+  font-size: 24rpx;
+  padding-top: 34rpx;
+  border-top: 1px solid #DBDBDB;
+  margin-top: 55rpx;
+}
+

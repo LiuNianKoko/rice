@@ -1,0 +1,37 @@
+
+.content{width:100%;background: rgb(244,244,244);}
+.content .splite{width:100%;height:20rpx;background: rgb(244,244,244);}
+.content .addrBox{width:90%;margin-left: 2.5%;padding:4% 2.5%;background: white;border-radius: 10rpx;margin-bottom: 20rpx;}
+.content .addrBox .icon{float: left;width:52rpx;height:52rpx;position: relative;top:20rpx}
+.content .addrBox .nameBox{float: left;width:80%;margin-left: 20rpx;}
+.content .addrBox .name{width:100%;font-size: 16px;
+}
+.content .addrBox .addr{width:100%;font-size: 12px;margin-top: 10rpx;}
+.content .addrBox .icons{float: right;position: relative;top:30rpx}
+.content .addrBox .sellImage{float: left;margin-right:5%;width:190rpx;height:190rpx;border-radius: 10rpx;}
+.content .addrBox .right{float: left;width:65%;position: relative;}
+.content .addrBox .right .sellName{}
+.content .addrBox .right .sellIntroduction{color:#989898;margin:20rpx 0;}
+/* .content .addrBox .right .iconBoxes{width:100%;position: absolute;right:0;bottom:-88upx;} */
+.content .addrBox .right .iconBoxes{width:100%;position: absolute;right:0;bottom:-50rpx;}
+.content .addrBox .right .priceIcon{float:left;color:#DA0F17;font-weight: bold}
+.content .addrBox .right .price{float:left;color:#DA0F17;font-weight: bold;font-size: 17px;}
+.content .addrBox .right .del{float:left;margin-left:40rpx;color:#909090;position: relative;top:10rpx}
+.content .addrBox .right .num{float:right;color:#3C3C3C}
+.content .title{font-size: 16px;color:#000000;margin:40rpx 0 40rpx 2.5%}
+.content .addrBox .rowsBox{width:100%;padding:10rpx 0;}
+.content .addrBox .rowsBox .icon_pay{width:44rpx;height:38rpx;float: left;}
+.content .addrBox .rowsBox .icon_pays{width:42rpx;height:42rpx;float: left;}
+.content .addrBox .rowsBox .icon_name{float: left;margin-left: 20rpx;}
+.content .addrBox .rowsBox .icon_use{width: 40rpx;height: 40rpx;float: right;}
+.content .addrBox .splites{width:100%;height:2rpx;background: rgba(0,0,0,0.1);margin:20rpx 0;}
+.content .textArea{width:90%;padding:2.5%;height:180rpx;margin-left:2.5%;background: white;}
+.content .uni-textarea-placeholder,
+.content .textarea-placeholder{font-size: 14px;}
+.content .footer{width: 100%;height:106rpx;line-height: 106rpx;background: white;position: absolute;left:0;bottom:0;z-index: 2;}
+.content .footer .name{float:right;font-size: 14px;
+}
+.content .footer .icon{float:right;font-size: 12px;color:rgb(223,18,30);margin-left: 20rpx;}
+.content .footer .money{float:right;color:rgb(223,18,30);margin-right: 10rpx;}
+.content .footer .btn{font-size: 15px;height:53rpx;line-height: 53rpx;padding:6.5rpx 40rpx;float:right;background:rgb(223,18,30);margin:0 20rpx;color:white;border-radius: 100rpx;margin-top: 20.5rpx;}
+

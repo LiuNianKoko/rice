@@ -1,0 +1,8 @@
+
+.content{}
+.content .none{text-align: center;width:100%;margin-top:40rpx;}
+.content .rows{width:95%;padding:2.5%;border-bottom: 1px solid rgb(244,244,244);}
+.content .rows .image{width:50rpx;height: 62rpx;float: left;margin:10rpx}
+.content .rows .names{font-size: 14px;float: left;height: 62rpx;line-height: 62rpx;margin:10rpx 0;margin-left:20rpx;}
+.content .rows .time{font-size: 14px;color:#BABABA;float: right;height: 62rpx;line-height: 62rpx;margin:10rpx 0;margin-right: 20rpx;}
+

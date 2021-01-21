@@ -1,0 +1,50 @@
+page {
+  background-color: #f4f4f4;
+}
+.msg-item {
+  padding: 30rpx 25rpx;
+}
+.msg-item .msg-time {
+  font-size: 26rpx;
+  color: #636363;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+.msg-item .msg-text {
+  background-color: #fff;
+  padding: 22rpx 24rpx;
+  -webkit-border-radius: 25rpx;
+          border-radius: 25rpx;
+}
+.msg-item .msg-text .msg-img-wrap {
+  width: 132rpx;
+  height: 132rpx;
+}
+.msg-item .msg-text .msg-img-wrap .msg-img {
+  width: 132rpx;
+  height: 132rpx;
+}
+.msg-item .msg-text .msg-intr-wrap {
+  background-color: #f8f8f8;
+  padding: 12rpx 14rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.msg-item .msg-text .msg-intr-wrap .msg-intr {
+  font-size: 25rpx;
+  color: #858585;
+}
+.msg-item .msg-text .msg-intr-wrap .msg-check {
+  font-size: 24rpx;
+  color: #EB7A8D;
+  text-align: right;
+}
+

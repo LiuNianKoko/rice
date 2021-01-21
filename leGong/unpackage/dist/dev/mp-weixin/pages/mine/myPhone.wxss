@@ -1,0 +1,34 @@
+.getPhone {
+  padding: 0 32rpx;
+}
+.getPhone .title {
+  text-align: center;
+  padding: 100rpx 0;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.getPhone .getPhoneBtn {
+  width: 100%;
+  height: 100rpx;
+  color: #fff;
+  font-size: 36rpx;
+  line-height: 100rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#ff99dd), to(#ffb19b));
+  background: -webkit-linear-gradient(left, #ff99dd 0%, #ffb19b 100%);
+  background: linear-gradient(90deg, #ff99dd 0%, #ffb19b 100%);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+.getPhone .box {
+  color: #6894B9;
+}
+.user-content {
+  width: 400rpx;
+  height: 200rpx;
+  background-color: #fff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  font-size: 30rpx;
+}
+

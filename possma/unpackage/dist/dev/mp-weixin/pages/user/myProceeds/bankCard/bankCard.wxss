@@ -1,0 +1,7 @@
+
+.content .inputBox{width:80%;font-size: 14px;padding:2.5% 5%;margin-left: 5%;border:1px solid rgb(242,242,242);border-radius: 20rpx;margin-top:30rpx;}
+.content .uni-input-placeholder{font-size: 14px;color:grey}
+.content .sure{width:80%;margin-left: 5%;margin-top: 200rpx;background: rgb(78,178,244);color:white;border-radius: 200rpx;text-align: center;padding:3% 5%;}
+.content .color_grey{color:grey;font-size: 14px;}
+.content .icons{float: right;position: relative;top:4rpx}
+

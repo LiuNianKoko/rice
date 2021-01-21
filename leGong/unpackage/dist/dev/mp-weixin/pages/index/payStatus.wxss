@@ -1,0 +1,31 @@
+page {
+  background-color: #f4f4f4;
+}
+.lg-pay {
+  width: 177rpx;
+  height: 183rpx;
+  margin-left: 36rpx;
+}
+.pay-wrap {
+  padding-top: 130rpx;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.btn-wrap {
+  padding: 94rpx 124rpx;
+}
+.btn-wrap .btn {
+  font-size: 26rpx;
+  color: #EC7A8E;
+  font-weight: bold;
+  border: 1px solid #EC7A8E;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
+  width: 180rpx;
+  height: 56rpx;
+  text-align: center;
+  line-height: 56rpx;
+}
+

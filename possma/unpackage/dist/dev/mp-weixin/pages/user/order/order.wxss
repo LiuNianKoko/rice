@@ -1,0 +1,30 @@
+
+.content{background: rgb(244,244,244);width:100%;}
+.content .topBox{width:95%;padding-top:20rpx;margin-left:2.5%;}
+.content .topBox .names{width:25%;font-size: 14px;border-bottom: 1px solid rgb(244,244,244);text-align: center;padding-bottom: 20rpx;float: left;}
+/* rgb(119,188,233) */
+.content .topBox .special{color:rgb(119,188,233);border-bottom: 1px solid rgb(119,188,233);-webkit-transition: all 0.1s;transition: all 0.1s;}
+.marginBottom-50{margin-bottom: 50rpx;}
+.marginBottom-40{margin-bottom: 40rpx}
+.allBox{width:100%;background-color: rgb(244,244,244)}
+.allBox .boxes{width: 90%;margin:20rpx 0;margin-left: 2.5%;padding:2.5%;background: white;border-radius: 10rpx;}
+.allBox .boxes .time{font-size:14px;color:#B8B8B8;float: left;}
+.allBox .boxes .status{float: right;font-size: 14px;}
+.allBox .boxes .splites{float: right;margin:0 20rpx;width:2rpx;height:30rpx;line-height: 30rpx;margin-top: 7rpx;border-right: 2rpx dashed rgb(136,136,136);}
+.allBox .boxes .iconDel{float: right;width:27rpx;height:29rpx;position: relative;top:8rpx}
+.allBox .boxes .goodsImage{width:170rpx;height:170rpx;margin-right:20rpx;border-radius: 5rpx;float: left;}
+.allBox .boxes .name{width:50%;float: left;font-size: 14px;color:#161616;}
+.allBox .boxes .name_color{width:50%;float: left;font-size: 12px;color:#989898;}
+.allBox .boxes .right{width:20%;float: left;font-size: 14px;color:#919191;
+}
+.allBox .boxes .right .price{float: right;width: 100%;text-align: right;font-size: 14px;}
+.allBox .boxes .right .num{float: right;width:100%;text-align: right;font-size: 13px;color:#919191;margin-top: 15rpx;}
+.allBox .boxes .payMent{float: right;margin:20rpx 0;}
+.allBox .boxes .payMent .names{float: right;color:#161616;font-size:12px}
+.allBox .boxes .payMent .priceNum{float: right;color:#161616;font-size:14px}
+.allBox .boxes .btns{float: right;text-align: center;font-size: 14px;border-radius: 100rpx;padding:10rpx 35rpx;font-size: 13px;margin-left:20rpx;}
+.allBox .boxes .bg_blue{background:rgb(78,178,244);color:white;}
+.allBox .boxes .bg_white{color:rgb(78,178,244);border: 1px solid rgb(78,178,244);}
+.allBox .boxes .bg_false{background:rgb(221,221,221);color:white;}
+.allBox .none{text-align: center;width:90%;padding:2.5%;margin-left: 2.5%;background: white;border-radius: 10rpx;}
+

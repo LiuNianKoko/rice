@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "q-s-popup": "/components/QS-popup/QS-popup"
+  }
+}

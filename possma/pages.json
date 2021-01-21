@@ -1,0 +1,382 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"titleNView":false,
+				"enablePullDownRefresh":true
+			}
+		},{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText": "登录",
+				"titleNView":false
+			}
+		},
+		{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"titleNView":false
+			}
+        },{
+            "path" : "pages/user/set/set",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        },{
+            "path" : "pages/user/set/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/user/set/about/agree/agree",
+            "style" : {
+				"navigationBarTitleText": "协议"
+			}
+        }
+        ,{
+            "path" : "pages/user/changTel/changTel",
+            "style" : {
+				"navigationBarTitleText": "更换绑定手机号"
+			}
+        }
+        ,{
+            "path" : "pages/user/forgetPassWord/forgetPassWord",
+            "style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+        }
+        ,{
+            "path" : "pages/user/myProceeds/myProceeds",
+            "style" : {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "提现记录",
+								"fontSize": "14px", 
+								"color":"#409BE0",
+								"width":"64px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/myProceeds/Alipay/Alipay",
+            "style" : {
+				"navigationBarTitleText": "支付宝提现"
+			}
+        }
+        ,{
+            "path" : "pages/user/myProceeds/bankCard/bankCard",
+            "style" : {
+				"navigationBarTitleText": "银行卡提现"
+			}
+        }
+        ,{
+            "path" : "pages/user/myProceeds/details/details",
+            "style" : {
+				"navigationBarTitleText": "明细"
+			}
+        }
+        ,{
+            "path" : "pages/user/order/order",
+            "style" : {
+				"navigationBarTitleText": "任务"
+			}
+        }
+        ,{
+            "path" : "pages/user/order/comment/comment",
+            "style" : {
+				"navigationBarTitleText": "立即评论"
+			}
+        }
+        ,{
+            "path" : "pages/user/myItem/myItem",
+            "style" : {
+				"navigationStyle":"custom"
+			}         
+        }
+		,{
+		    "path" : "pages/user/myItems/myItem",
+		    "style" : {
+				"navigationStyle":"custom"
+			}         
+		}
+		,{
+		    "path" : "pages/user/dailyTask/dailyTask",
+		    "style" : {
+				"navigationStyle":"custom"
+			}         
+		}
+		,{
+		    "path" : "pages/user/dailyTask/robCode",
+		    "style" : {
+				"navigationStyle":"custom"
+			}         
+		}
+		,{
+		    "path" : "pages/user/dailyTask/codeNow",
+		    "style" : {
+				"navigationStyle":"custom"
+			}         
+		}
+        ,{
+            "path" : "pages/user/agent/agent",
+            "style" : {
+				"navigationBarTitleText": "代理中心"
+			}
+        },
+		{
+		    "path" : "pages/user/agent/agentCenter",
+		    "style" : {
+				"navigationBarTitleText": "代理中心"
+			}
+		}
+        ,{
+            "path" : "pages/user/agent/PayAgent/PayAgent",
+            "style" : {
+				"navigationBarTitleText": "代理中心"
+			}
+        }
+        ,{
+            "path" : "pages/user/sureOrder/sureOrder",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/user/myAddr/myAddr",
+            "style" : {
+				"navigationBarTitleText": "我的地址",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "新增",
+								"fontSize": "14px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/myAddr/newAddr/newAddr",
+            "style" : {
+				"navigationBarTitleText": "添加收货地址",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "保存",
+								"fontSize": "14px", 
+								"color":"#4F9AF4"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/details/details",
+            "style" : {
+				"navigationBarTitleText": "商品详情",
+				"titleNView":false
+			}
+        }
+        ,{
+            "path" : "pages/user/allComment/allComment",
+            "style" : {
+				"navigationBarTitleText": "查看全部评论"
+			}
+        }
+        ,{
+            "path" : "pages/login/forget/forget",
+            "style" : {
+				"navigationBarTitleText": "忘记密码"
+			}
+        }
+        ,{
+            "path" : "pages/login/register/register",
+            "style" : {
+				"navigationBarTitleText": "注册"
+			}
+        }
+        ,{
+            "path" : "pages/index/bindCard/bindCard",
+            "style" : {
+				"navigationBarTitleText": "绑定车牌信息",
+				"titleNView":false
+			}
+        }
+        ,{
+            "path" : "pages/index/agent/agent",
+            "style" : {
+				"navigationBarTitleText": "批发商中心"
+			}
+        }
+        ,{
+            "path" : "pages/index/refund/refund",
+            "style" : {
+				"navigationBarTitleText": "退款"
+			}
+        }
+        ,{
+            "path" : "pages/login/wxRegister/wxRegister",
+            "style" : {
+				"navigationBarTitleText": "微信登录绑定手机号"
+			}
+        }
+        ,{
+            "path" : "pages/user/share/share",
+            "style" : {
+				"navigationBarTitleText": "分享推广"
+			}
+        }
+        ,{
+            "path" : "pages/user/dividends/dividends",
+            "style" : {
+				"navigationBarTitleText": "推广分红",
+				"titleNView":false
+			}
+        }
+        ,{
+            "path" : "pages/user/dividends/details/details",
+            "style" : {
+				"navigationBarTitleText": "提现"
+			}
+        }
+        ,{
+            "path" : "pages/user/dividends/details/getMoney/getMoney",
+            "style" : {
+				"navigationBarTitleText": "我的分红",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "明细",
+								"fontSize": "14px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/dividends/details/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "分红明细"
+			}
+        }
+        ,{
+            "path" : "pages/index/askFor/askFor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请的挪车码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/msg/msgList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息列表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/index/msg/msgDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/index/question/question",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "问卷调查",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/user/socket/socket",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询客服",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的挪车码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/socket_addr/socket_addr",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"titleNView":false
+            }
+            
+        }
+    ],
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"color":"#bbbbbb",
+		"selectedColor":"#409BE0",
+		"borderStyle":"white",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/image/img/index1.png",
+				"selectedIconPath":"static/image/img/index2.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/user/user",
+				"iconPath":"static/image/img/mine1.png",
+				"selectedIconPath":"static/image/img/mine2.png",
+				"text":"我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+	
+	
+	
+}

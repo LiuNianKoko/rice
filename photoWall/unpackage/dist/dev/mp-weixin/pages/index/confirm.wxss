@@ -1,0 +1,111 @@
+.img-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 46rpx;
+}
+.img-wrap {
+  position: relative;
+  margin-bottom: 50rpx;
+  width: 33%;
+}
+.imgs {
+  border-radius: 10rpx;
+  width: 190rpx;
+  height: 190rpx;
+}
+.marginRight40 {
+  margin-right: 42rpx;
+}
+.bottom-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 80rpx 44rpx 50rpx;
+}
+.nexts {
+  width: 310rpx;
+  height: 78rpx;
+  background-color: #01b0bd;
+  border-radius: 10rpx;
+}
+.pres {
+  width: 310rpx;
+  height: 75rpx;
+  border: 1px solid #01b0bd;
+  color: #01b0bd;
+  border-radius: 10rpx;
+}
+.sure-content {
+  width: 510rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 65rpx 50rpx;
+  box-sizing: border-box;
+}
+.sure-content .sure-title {
+  font-size: 42rpx;
+  color: #383838;
+  text-align: center;
+  margin-bottom: 50rpx;
+  font-weight: bold;
+}
+.sure-content .photo-icon {
+  width: 140rpx;
+  height: 128rpx;
+  margin-bottom: 50rpx;
+}
+.sure-content .tips {
+  color: #9A9A9A;
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+.sure-content .btns-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.sure-content .btns-wrap .btns {
+  width: 170rpx;
+  height: 56rpx;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+}
+.sure-content .btns-wrap .btns-left {
+  background-color: #dcdcdc;
+  color: #fff;
+}
+.sure-content .btns-wrap .btns-right {
+  background-color: #01b0bd;
+  color: #fff;
+}
+.photo-wrap {
+  width: 506rpx;
+  height: 704rpx;
+  border-radius: 30rpx;
+  background-color: #fff;
+  position: relative;
+}
+.photo-wrap .photos {
+  width: 506rpx;
+  height: 704rpx;
+  border-radius: 30rpx;
+}
+.photo-wrap .del-white {
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  bottom: -120rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
